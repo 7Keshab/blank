@@ -11,6 +11,7 @@ import CircleButton from '../../components/circle_button'
 // const handlePress = (): void => {
 //     router.back()
 // }
+
 const handlePress = (): void => {
     router.push({pathname: '/todo/edit', search: { id }})
 }
